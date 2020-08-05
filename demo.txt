@@ -1,0 +1,115 @@
+
+ <div class="panel bg-light " style="padding-left: 200px;width:70%;margin-left:15%;">
+      <form method="POST" class="form-horizontal">
+         <h3>2. What is the output of the below c code?</h3>
+         <pre>
+
+         #include&lt;<stdio.h>
+            int main()
+            {
+                void foo();
+                printf("1 ");
+                foo();
+            }
+            void foo()
+            {
+                printf("2 ");
+            }
+          </pre>
+         <br />
+         <input type="radio" name="question1" />
+         <label>1.1 2</label><br />
+
+         <input type="radio" name="question1" />
+         <label>2. Compile time error</label><br />
+
+         <input type="radio" name="question1" />
+         <label>3. Depends on the compiler</label> <br />
+
+         <input type="radio" name="question1" />
+         <label>4. Fast</label>
+      </form>
+   </div>
+
+   <div class="panel bg-light " style="padding-left: 200px;width:70%;margin-left:15%;">
+      <form method="POST" class="form-horizontal">
+         <h3>3. What is the output of the below c code?</h3>
+         <pre>
+
+         #include&lt;<stdio.h>
+            void main()
+            {
+                int a = 5, b = -7, c = 0, d;
+                d = ++a && ++b || ++c;
+                printf("\n%d%d%d%d", a, b, c, d);
+            }
+        </pre>
+         <br />
+         <input type="radio" name="question1" />
+         <label>1. 6 -6 0 0</label><br />
+
+         <input type="radio" name="question1" />
+         <label>2. 6 -5 0 1</label><br />
+
+         <input type="radio" name="question1" />
+         <label>3. -6 -6 0 1</label> <br />
+
+         <input type="radio" name="question1" />
+         <label>4. 6 -6 0 1</label>
+      </form>
+   </div>
+
+
+   <div class="panel bg-light " style="padding-left: 200px;width:70%;margin-left:15%;">
+      <form method="POST" class="form-horizontal">
+         <h3>4. What is the output of the below c code?</h3>
+         <pre>
+
+      #include&lt;<stdio.h>
+         int main()
+         {
+             int x = 2;
+             x = x << 1;
+             printf("%d\n", x);
+         }
+      </pre>
+         <br />
+         <input type="radio" name="question1" />
+         <label>1. 4</label><br />
+
+         <input type="radio" name="question1" />
+         <label>2. 1</label><br />
+
+         <input type="radio" name="question1" />
+         <label>3. Depends on the compiler</label> <br />
+
+         <input type="radio" name="question1" />
+         <label>4.Depends on the endianness of the machine</label>
+      </form>
+   </div>
+
+
+   <div class="panel bg-light " style="padding-left: 200px;width:70%;margin-left:15%;">
+      <form method="POST" class="form-horizontal">
+         <h3>5. Property which allows to produce different executable for different platforms in C is called?</h3>
+         <br />
+         <input type="radio" name="question1" />
+         <label>1. File inclusion</label><br />
+
+         <input type="radio" name="question1" />
+         <label>2. File inclusion</label><br />
+
+         <input type="radio" name="question1" />
+         <label>3.Conditional compilation</label> <br />
+
+         <input type="radio" name="question1" />
+         <label>4.Recursive macros</label>
+      </form>
+   </div>
+
+
+
+
+     <a href="index.html" class="btn btn-primary" style="margin-left:45%;">
+      Submit
+   </a>
